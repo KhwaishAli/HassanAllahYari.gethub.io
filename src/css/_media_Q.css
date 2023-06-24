@@ -1,0 +1,166 @@
+@media screen and (max-width: 950px){
+    .header_main .like_a_menu .desbat .Subscribe .search_bar .search .search_ipt{
+        width: 250px;
+
+        transition: 0.5s;
+    }
+}
+@media screen and (max-width: 900px){
+    .header_main .like_a_menu .desbat .Subscribe .search_bar .search .search_ipt{
+        width: 200px;
+
+        transition: 0.5s;
+    }
+}
+@media screen and (max-width: 850px){
+    .header_main .like_a_menu .desbat .Subscribe .search_bar .search .search_ipt{
+        width: 150px;
+
+        transition: 0.5s;
+    }
+}
+@media screen and (max-width: 800px){
+    .header_main .like_a_menu .desbat .Subscribe .search_bar .search .search_ipt{
+        width: 100px;
+
+        transition: 0.5s;
+    }
+}
+@media screen and (min-width: 750px){
+    .menu_moble{
+        height: 0px;
+        display: none;
+    }
+}
+@media screen and (max-width: 750px){
+    .header_main .like_a_menu .desbat .Subscribe .search_bar .search .search_ipt{
+        display: none;
+
+        transition: 0.5s;
+    }
+    .header_main .like_a_menu .desbat .Subscribe .search_bar .btn_B{
+        display: none;
+        align-items: center;
+        justify-content: center;
+    
+        height: 50px;
+        width: 50px;
+    
+        cursor: pointer;
+    
+        background-color: var(---team_colour-);
+        border-radius: 10px;
+    }
+    .header_main .like_a_menu .desbat .colum_one{
+        justify-content: flex-end;
+    }
+    .header_main .like_a_menu .desbat .colum_one .menu{
+        display: none;
+    }
+    .header_main .like_a_menu .desbat .colum_one .menu_mini {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+@media screen and (max-width: 550px){
+    .header_main .like_a_menu .desbat .colum_one .menu_mini {
+        margin-right: 20px;
+    }
+    .header_main .like_a_menu .desbat .Subscribe .click{
+        margin-right: 20px;
+    }
+    .header_main .like_a_menu .desbat .Subscribe .search_bar{
+        margin-left: 20px;
+    }
+
+    .footer_main{
+        width: 100%;
+        height: 50px;
+        background-color: var(---team_colour-);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    
+        font-size: 12px;
+        z-index: 1000;
+    }
+    
+    .footer_main div{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-color: var(---team_colour-);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+        padding: 10px 0px;
+    
+        font-size: 12Px;
+        z-index: 1000;
+    }
+    
+    .footer_main span{
+        font-weight: 600;
+        font-size: 13px;
+    
+        color: rgb(0, 102, 170);
+        z-index: 1000;
+    }
+}
+
+.menu_moble .menu{
+    margin-top: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    z-index: 1000;
+}
+
+.menu_moble .menu ul{
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 1000;
+}
+
+.menu_moble .menu ul li{
+    background-color: rgb(40, 40, 40);
+
+    list-style: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding-left: 30px;
+
+    cursor: pointer;
+    width: 1000px;
+    height: 40px;
+
+    transition: 0.15s;
+}
+
+.menu_moble .menu ul li:hover{
+    background-color: var(---team_colour-);
+    padding-left: 40px;
+    width: 990px;
+}
+
+.menu_moble .menu ul li:active{
+    background-color: rgb(50, 50, 50);
+}
+

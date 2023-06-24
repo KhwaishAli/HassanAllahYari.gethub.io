@@ -1,0 +1,545 @@
+.fixed{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    /* transition: 0.1s; */
+
+    user-select: none;
+}
+
+.header_main{
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* transition: 0.1s; */
+    overflow: hidden;
+}
+
+.header_main .like_a_menu{
+    background-image: linear-gradient(rgb(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url(image/pexels-huseyn-kamaladdin-667838.jpg);
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_main .like_a_menu .desbat{
+    /* display: block; */
+    height: 100%;
+    width: 100%;
+}
+
+.header_main .like_a_menu .desbat .colum_one{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_main .like_a_menu .desbat .colum_one .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.header_main .like_a_menu .desbat .colum_one .menu ul{
+    width: 100%;
+    height: 75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header_main .like_a_menu .desbat .colum_one .menu ul li{
+    list-style: none;
+}
+
+.header_main .like_a_menu .desbat .colum_one .menu ul li .hover{
+    height: 0px;
+    width: 100px;
+    background-color: var(---team_colour-);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.15s;
+}
+
+.header_main .like_a_menu .desbat .colum_one .menu ul li a .hover{
+    height: 0px;
+    width: 100px;
+    background-color: var(---team_colour-);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.15s;
+}
+
+.header_main .like_a_menu .desbat .colum_one .menu ul li a{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+
+    transition: 0.15s;
+    text-decoration: none;
+}
+
+.header_main .like_a_menu .desbat .colum_one .menu ul li:hover a .hover{
+    border-radius: 10px;
+    height: 40px;
+    background-color: var(---team_colour-);
+}
+
+.header_main .like_a_menu .desbat .colum_one .menu ul li:active a .hover{
+    height: 20px;
+}
+
+.header_main .like_a_menu .desbat .colum_one .menu ul li:active{
+    letter-spacing: 5px;
+}
+
+.header_main .like_a_menu .desbat .colum_one .menu_mini{
+    width: 50px;
+    height: 50px;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    cursor: pointer;
+
+    background-color: rgba(255, 255, 255, 0);
+
+    margin-right: 50px;
+}
+
+.header_main .like_a_menu .desbat .colum_one .menu_mini img{
+    height: 40px;
+    transition: 0.15s;
+}
+
+.header_main .like_a_menu .desbat .colum_one .menu_mini img:hover{
+    height: 45px;
+}
+
+.header_main .like_a_menu .desbat .colum_one .menu_mini img:active{
+    height: 35px;
+}
+
+.header_main .like_a_menu .desbat .Subscribe{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 75px;
+}
+
+.header_main .like_a_menu .desbat .Subscribe .search_bar{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_main .like_a_menu .desbat .Subscribe .search_bar .search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: white;
+    height: 50px;
+
+    border-radius: 10px;
+
+    transition: 0.15s;
+}
+
+.header_main .like_a_menu .desbat .Subscribe .search_bar .btn_A{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 50px !important;
+    width: 50px !important;
+
+    cursor: pointer;
+
+    background-color: var(---team_colour-);
+    border-radius: 10px;
+}
+
+.header_main .like_a_menu .desbat .Subscribe .search_bar .btn_A:hover{
+    height: 45px !important;
+}
+
+.header_main .like_a_menu .desbat .Subscribe .search_bar .btn_A:active{
+    height: 50px;
+    background-color: rgb(40, 40, 40);
+
+}
+
+.header_main .like_a_menu .desbat .Subscribe .search_bar .btn_A img{
+    width: 20px;
+    color: white;
+}
+
+.header_main .like_a_menu .desbat .Subscribe .search_bar .search .search_ipt{
+    outline: none;
+    border: none;
+    width: 300px;
+    padding: 10px;
+
+    font-size: 13px;
+    transition: 0.5s;
+}
+
+.header_main .like_a_menu .desbat .Subscribe .search_bar .btn_B{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 50px !important;
+    width: 50px !important;
+
+    cursor: pointer;
+
+    background-color: var(---team_colour-);
+    border-radius: 10px;
+}
+
+.header_main .like_a_menu .desbat .Subscribe .search_bar .btn_B:hover{
+    height: 45px !important;
+}
+
+.header_main .like_a_menu .desbat .Subscribe .search_bar .btn_B:active{
+    height: 50px;
+    background-color: rgb(40, 40, 40);
+}
+
+.header_main .like_a_menu .desbat .Subscribe .search_bar .btn_B img{
+    width: 20px;
+    color: white;
+}
+
+.header_main .like_a_menu .desbat .Subscribe .click{
+    color: white;
+    font-size: 14px;
+
+    padding: 10px 20px;
+    background-color: var(---team_colour-);
+    border-radius: 10px;
+
+    margin-right: 50px;
+
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.header_main .like_a_menu .desbat .Subscribe .click:hover{
+    padding: 7px 20px;
+}
+
+.header_main .like_a_menu .desbat .Subscribe .click:active{
+    padding: 3px 20px;
+    background-color: rgb(40, 40, 40);
+}
+
+.header_main .logo{
+    height: 100%;
+    width: 250px !important;
+    background-color: var(---team_colour1-);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 1000;
+}
+
+.header_main .logo .span_items{
+    text-transform: uppercase;
+    z-index: 1000;
+}
+
+.header_main .logo .span_items img{
+    width: 160px;
+    user-select: none;
+    z-index: -1000;
+    cursor: pointer;
+}
+
+.header_main .logo .span_items .A{
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+}
+
+.header_main .logo .span_items .B{
+    font-size: 10px;
+    font-weight: 700;
+    color: var(---team_colour-);
+}
+
+/* filter */
+
+
+.filter{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(---team_colour1-);
+    margin-bottom: 10px;
+
+    z-index: 1000;
+    user-select: none;
+
+    border-bottom: 1px solid #ffffff;
+}
+.filter .hover{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter .hover ul{
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    overflow-x: auto;
+    background-color: var(---team_colour1-);
+
+    z-index: 1000;
+}
+
+.filter .hover ul a{
+    text-decoration: none;
+}
+
+.filter .hover ul li{
+    list-style: none;
+    font-size: 12px;
+    padding: 8px 15px;
+
+    background-color: rgb(230, 230, 230);
+    color: rgb(40, 40, 40);
+
+    margin: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1000;
+
+    transition: 0.15s;
+}
+
+.filter .hover ul li:hover{
+    background-color: rgb(200, 200, 200) !important;
+}
+
+.filter .hover ul li:active{
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+ul::-webkit-scrollbar{
+    background-color: var(---team_colour1-);
+    height: 5px;
+}
+
+ul::-webkit-scrollbar-thumb{
+    background-color: rgb(50, 50, 50);
+    height: 2.5px;
+}
+
+ul::-webkit-scrollbar-button{
+    display: none;
+}
+
+ul::-webkit-scrollbar-corner{
+    display: none;
+}
+
+ul::-webkit-scrollbar-track{
+    background-color: rgb(255, 255, 255);
+    height: 2.5px;
+}
+
+
+.nav_main{
+    position: fixed;
+    height: 100vh;
+    width: 50px;
+
+    border-right: 1px solid rgb(220, 220, 220);
+    box-shadow: 0 0 1px 0 rgb(200, 200, 200);
+
+    background-color: rgb(255, 255, 255);
+
+    transition: 0.15s;
+    cursor: pointer;
+    overflow: hidden;
+
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: end;
+    flex-direction: column;
+
+    z-index: 1000;
+    user-select: none;
+}
+
+
+.nav_main .end_pageside{
+    width: 100%;
+    height: 40px;
+
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+    transition: 0.1s;
+    z-index: 1000;
+}
+
+.nav_main .end_pageside .A{
+    width: 50px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* position: absolute; */
+}
+
+.nav_main .end_pageside .A img{
+    width: 20px;
+}
+
+.nav_main .end_pageside:hover .hover_absote{
+    width: 250px;
+    background-color: rgb(40, 40, 40);
+}
+
+.nav_main .end_pageside .hover_absote{
+    position: absolute;
+
+    width: 0px;
+    height: 40px;
+    background-color: rgb(40, 40, 40);
+
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.nav_main .end_pageside .hover_absote .container .hover{
+    width: 50px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav_main .end_pageside .hover_absote .container .p{
+    width: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_main .end_pageside .hover_absote:active{
+    width: 50px;
+    transition: 0.1s;
+}
+
+.nav_main .end_pageside .hover_absote .p p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.container{
+    width: 250px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+}
+
+.nav_main .end_pageside .hover_absote .hover .B{
+    width: 20px;
+    position: absolute;
+}
+
+.nav_main .end_pageside .hover_A{
+    position: absolute;
+    height: 40px;
+    width: 250px;
+
+    display: flex;
+    align-items: center;
+}
+
+.nav_main .end_pageside .hover_A .p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 150px;
+}
+
+.nav_main .end_pageside .hover_A .p p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+
+.menu_moble{
+    position: fixed;
+    left: 200vw;
+    width: 550px;
+    transition: 0.15s;
+    height: 100vh;
+}
+
+.Subscribe a{
+    text-decoration: none;
+}

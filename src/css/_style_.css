@@ -1,0 +1,163 @@
+:root{
+    ---team_colour-: rgb(99, 135, 255);
+    ---team_colour1-: rgb(255, 255, 255);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(50, 50, 50);
+    overflow-x: hidden;
+
+    min-height: 110vh;
+}
+
+.animation{
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+
+    position: fixed;
+
+    z-index: -1;
+}
+
+.animation .A{
+    position: fixed;
+
+    height: 230px;
+    width: 230px;
+
+    background-color: rgba(99, 135, 255, 0.418);
+
+    margin-left: 30vw;
+    margin-top: 30vh;
+
+    border-radius: 10%;
+    animation: animation_A 2s alternate-reverse infinite;
+
+    /* border: 5px solid var(---team_colour-); */
+}
+
+.animation .B{
+    position: fixed;
+
+    height: 230px;
+    width: 230px;
+
+    background-color: rgba(99, 135, 255, 0.418);
+
+    margin-left: 32vw;
+    margin-top: 33vh;
+
+    border-radius: 10%;
+    animation: animation_B 1.5s alternate-reverse infinite;
+
+    /* border: 5px solid var(---team_colour-); */
+}
+
+.animation .C{
+    position: fixed;
+
+    height: 230px;
+    width: 230px;
+
+    background-color: rgba(99, 135, 255, 0.418);
+
+    margin-left: 63vw;
+    margin-top: 57vh;
+
+    border-radius: 10%;
+    animation: animation_C 1.5s alternate-reverse infinite;
+
+    /* border: 5px solid var(---team_colour-); */
+}
+
+.animation .D{
+    position: fixed;
+
+    height: 230px;
+    width: 230px;
+
+    background-color: rgba(99, 135, 255, 0.418);
+
+    margin-left: 60vw;
+    margin-top: 60vh;
+
+    border-radius: 10%;
+    animation: animation_D 1.7s alternate-reverse infinite;
+
+    /* border: 5px solid var(---team_colour-); */
+}
+
+@keyframes animation_A {
+    0%{
+        margin-left: 30vw;
+        margin-top: 30vh;
+    }
+    100%{
+        margin-left: 30vw;
+        margin-top: 33vh;
+    }
+}
+
+@keyframes animation_B {
+    0%{
+        margin-left: 32vw;
+        margin-top: 32vh; 
+    }
+    100%{
+        margin-left: 32vw;
+        margin-top: 30vh;
+    }
+}
+
+@keyframes animation_C {
+    0%{
+        margin-left: 63vw;
+        margin-top: 57vh;
+    }
+    100%{
+        margin-left: 63vw;
+        margin-top: 55vh;
+    }
+}
+
+@keyframes animation_D {
+    0%{
+        margin-left: 60vw;
+        margin-top: 60vh; 
+    }
+    100%{
+        margin-left: 60vw;
+        margin-top: 62vh;
+    }
+}
+
+
+
+body::-webkit-scrollbar{
+    background-color: black;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(40, 40, 40);
+}
+
+body::-webkit-scrollbar-button{
+    display: none;
+}
+
+body::-webkit-scrollbar-corner{
+    display: none;
+}
+
+body::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 1px 0 rgb(153, 153, 153);
+    background-color: rgb(250, 250, 250);
+}
